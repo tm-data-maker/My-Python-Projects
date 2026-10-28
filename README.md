@@ -84,6 +84,36 @@ while option != 5:
 
 ---
 
+## 📸 Code Examples & Output Screenshots
+
+### 🔢 Python Exercise: 4-Digit Number Reversal (Escape Room Game)
+
+* **Task Description:** Designing a mini-feature for an escape room game where players enter a 4-digit number, and the program uses mathematical operations to extract individual digits and reverse them to unlock the next clue.
+
+* **Code Execution & Output:**
+
+  ![4-Digit Number Reversal Screenshot](4-Digit_Number_Reversal_Screenshot.png)
+
+* **Technical Explanation:**
+  * **Input & Parsing:** Prompts the user to input a 4-digit integer and safely converts it using `int()`.
+  * **Arithmetic Extraction:** Uses integer floor division (`//`) and the modulo operator (`%`) to mathematically isolate the thousands, hundreds, tens, and units places.
+  * **String Formatting:** Reconstructs and prints the reversed sequence using formatted f-strings (`f"..."`) to display the final secret code.
+
+### 🔐 Python Exercise: Security Door Access Control (Attempt Limiter)
+
+* **Task Description:** Scenario-based security system exercise simulating a facility keypad entry mechanism where users enter a secret code (`123`) with a strict limit of 3 attempts before triggering a security alert.
+
+* **Code Execution & Output:**
+  
+  ![Security Door Access Screenshot](Security_Door_Access_Screenshot.png)
+
+* **Technical Explanation:**
+  * **Loop & Counter Management:** Utilizes a `while` loop alongside a `count` variable to track failed attempts and secure the entry point.
+  * **Dynamic Validation (`if-else`):** Evaluates user input in real-time, outputting custom status messages and remaining attempt counters via f-strings.
+  * **Security Trigger:** Implements a secondary conditional check to alert system operators if the maximum threshold of invalid entries is reached.
+
+---
+
 ## ✨About the Author
 Tymofii Moshkovskyi
 

@@ -34,6 +34,7 @@ for i in range(1, 101):
     else:
         print(i)
 ```
+* **Logic breakdown:** The script loops through integers from 1 to 100, checking divisibility conditions at each step. First, it tests if a number is divisible by both 3 and 5 using the modulus operator (and i % 3 == 0 and i % 5 == 0), printing "fizzbuzz". If not, it checks individual divisibility by 3 ("fizz") or 5 ("buzz"), and otherwise defaults to printing the number itself.
 
 ### 2. Factorial / Sum Calculation (Using `for` Loop)
 
@@ -46,6 +47,7 @@ for i in range(1, number + 1):
 
 print(f"Total of all numbers from 1 to {number} is {total}.")
 ```
+* **Logic breakdown:** The script prompts the user to enter a number and casts the input to an integer. It uses a for loop combined with range() to iterate from 1 up to the specified number, accumulating the product or sum step-by-step into a total variable, and finally outputs the result using a formatted f-string.
 
 ### 3. Interactive Menu (Using while Loop & Conditionals)
 ```python
@@ -78,8 +80,7 @@ while option != 5:
     else:
         print("Exit")
 ```
-
-* **Logic breakdown:** The script checks if numbers are divisible by both 3 and 5 first (fizzbuzz), then checks individual divisibility by 3 (fizz) or 5 (buzz), and defaults to printing the number itself.
+* **Logic breakdown:** The script runs a while loop to display a calculator options menu continuously until the user selects exit (5). Inside the loop, it accepts user input for two numbers and uses conditional if-elif-else branching to perform basic arithmetic operations (addition, subtraction, multiplication, and division) while including safety checks to prevent division by zero.
 
 ---
 

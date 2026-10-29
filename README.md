@@ -1,4 +1,4 @@
-# Python Basics - Data Technician Bootcamp (Week 6)
+# Python Basics - Data Technician Bootcamp
 
 ## 📌 Overview
 This repository contains my completed practical exercises for **Week 6 (Python Basics - Day 1 & Day 2)** of the Data Technician bootcamp. The work covers core programming fundamentals, including variables, input/output, type casting, conditional branching, and loops.
